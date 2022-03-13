@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/** 
+/**
  * main - prints the alphapbet in lower case, and then in uppercase,
  * followed by a new line
  * Return: Always 0 (Success)
