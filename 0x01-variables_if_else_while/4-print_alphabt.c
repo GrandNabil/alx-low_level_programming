@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet in lower case,
  * followed by a new line, except q and e
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,5 +18,5 @@ int main(void)
 		alph++;
 	}
 	putchar('\n');
-	return(0);
+	return (0);
 }
