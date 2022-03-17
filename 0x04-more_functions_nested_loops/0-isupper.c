@@ -5,7 +5,7 @@
  * Return:  1 if c is digit 0 otherwse
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	return(c >= 'A' && c <= 'Z');
 }
