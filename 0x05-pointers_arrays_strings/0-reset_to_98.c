@@ -2,10 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - writes a function that takes a pointer to an int as parameter and updates the value it points to to 98
+ * reset_to_98(int *n) - writes a function that takes a pointer to an int as parameter and updates the value it points to to 98
+ * @n: pointer to the variable to update
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
 	int var = 98;
 	int *n;
