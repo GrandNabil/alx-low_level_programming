@@ -1,5 +1,5 @@
-#ifndef FILE_function_pointers
-#define FILE_function_pointers
+#ifndef FILE_function_pointers_h
+#define FILE_function_pointers_h
 
 void print_name(char *name, void (*f)(char *));
 void array_iterator(int *array, size_t size, void (*action)(int));
